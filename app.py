@@ -16,6 +16,7 @@ def chat():
     
     try:
         data = request.json
+        data = {"message":"go to google chrome"}
         message = data["message"]
         chatgpt_chain = create_chain()
         prediction = chatgpt_chain.predict(human_input=message)
