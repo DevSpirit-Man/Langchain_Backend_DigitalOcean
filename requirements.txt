@@ -1,6 +1,5 @@
 Flask
 gunicorn
 langchain
-langflow
 openai
 python-dotenv
